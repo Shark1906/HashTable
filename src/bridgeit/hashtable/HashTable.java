@@ -19,7 +19,7 @@ public class HashTable {
 			}
 			hashMap.put(word, value);
 		}
-		
+		hashMap.remove("avoidable");
 		System.out.println(hashMap);
 	}
 
